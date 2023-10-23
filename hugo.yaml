@@ -1,0 +1,33 @@
+baseURL: https://agenco.de/
+languageCode: en-us
+title: Agenco
+theme: ananke
+DefaultContentLanguage: en
+SectionPagesMenu: main
+Paginate: 3
+googleAnalytics: ""
+enableRobotsTXT: true
+languages:
+  en:
+    title: Agenco
+    weight: 1
+    contentDir: content/en
+  de:
+    title: Agenco De
+    weight: 2
+    contentDir: content/de
+sitemap:
+  changefreq: monthly
+  priority: 0.5
+  filename: sitemap.xml
+params:
+  text_color: black
+  author: S. Jonsson
+  favicon: favicon.ico
+  site_logo: Agenco_Main_Logo_Transparent_bg.svg
+  description: Agenco - Agents for Agility and Change and other cool things
+  background_color_class: bg-washed-blue
+  recent_posts_number: 3
+  ananke_socials:
+    - name: twitter
+      url: https://twitter.com/agencoEK
