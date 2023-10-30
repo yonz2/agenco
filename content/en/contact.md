@@ -1,11 +1,12 @@
 ---
-title: Contact
-featured_image: ''
-omit_header_text: true
 description: We'd love to hear from you
+featured_image: ""
+menu:
+- main
+- footer
+omit_header_text: true
+title: Contact
 type: page
-menu: main
-
 ---
 
 

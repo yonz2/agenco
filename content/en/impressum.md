@@ -1,12 +1,12 @@
 ---
-title: Impressum
-featured_image: ''
-omit_header_text: true
 description: Site Impressum
-featured_image: '/images/gohugo-default-sample-hero-image.jpg'
+featured_image: /images/gohugo-default-sample-hero-image.jpg
+menu:
+- main
+- footer
+omit_header_text: true
+title: Impressum
 type: page
-menu: main
-
 ---
 
 ### Angaben gemäß § 5 TMG ###

@@ -7,15 +7,24 @@ SectionPagesMenu: main
 Paginate: 3
 googleAnalytics: ""
 enableRobotsTXT: true
+
 languages:
   en:
     title: Agenco
     weight: 1
+    languageCode: en-US
+    languageName: English
     contentDir: content/en
   de:
     title: Agenco De
     weight: 2
+    languageCode: de-DE
+    languageName: Deutsch
     contentDir: content/de
+markup:
+  goldmark:
+     renderer:
+        unsafe: true
 sitemap:
   changefreq: monthly
   priority: 0.5
@@ -23,10 +32,10 @@ sitemap:
 params:
   text_color: black
   author: S. Jonsson
-  favicon: favicon.ico
-  site_logo: Agenco_Main_Logo_Transparent_bg.svg
+  favicon: /apple-touch-icon.png
+  site_logo: Agenco-Main-Logo-Transparent-bg-white.svg
   description: Agenco - Agents for Agility and Change and other cool things
-  background_color_class: bg-washed-blue
+  background_color_class: bg-near-black
   recent_posts_number: 3
   ananke_socials:
     - name: twitter
